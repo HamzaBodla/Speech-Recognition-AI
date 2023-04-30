@@ -11,10 +11,6 @@ import sys
 
 class Fetcher:
     def __init__(self, url):
-        # self.driver = webdriver.PhantomJS()
-        # self.driver.wait = WebDriverWait(self.driver, 5)
-        # self.url = url
-        # print(self.url)
 
         chrome_options = webdriver.ChromeOptions()
         chrome_options.add_argument("--headless")
